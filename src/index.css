@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/public/images/25501.jpg");
+    background-position: center;
+    background-size:cover;
+}
+
+#home .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-image: url("/public//images/8501978.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.form-control{
+    width:100%;
+    border-radius: 20px;
+    margin-right:10px;
+    padding: 10px;
+    border: none !important;
+}
+
+.btn{
+    border-radius: 50%;
+    padding: 12px;
+    background-color:azure;
+    border: none;
+    color: #111;
+}
+
+.btn:focus,.btn:hover{
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #57ace8;
+    color: #fff !important;
+}
+
+.form-control:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.btn i{
+    font-size: 20px;
+}
+
+
+
+.data-name{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.data-cel{
+    color: #fff;
+    font-size: 30px;
+}
+
+.data-hum,.data-humi,.data-spd{
+    font-size: 20px;
+    color: #fff;
 }
